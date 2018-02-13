@@ -1,0 +1,34 @@
+.label > div {
+  /*z-index: 100000*/
+/*  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;*/
+}
+
+.label {
+  position: relative;
+}
+.label__station {
+  border-bottom: 1px solid black;
+}
+
+
+.label:before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background: blue;
+  display: block;
+  position: absolute;
+  left: -100px;
+}
+
+
+aside {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  color: white;
+}
