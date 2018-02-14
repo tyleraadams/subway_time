@@ -1,47 +1,6 @@
 .nav {
-  background: black;
-}
-
-.pagination {
-  background: black;
-  display: flex;
-  width: 400px;
-  justify-content: space-between;
-  color: white;
-}
-
-.pagination li {
-  list-style-type: none;
-  background: gray/*#3A4CA8*/;
-  /*padding: 3px 6px;*/
-  cursor: pointer;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.pagination li > a {
-  outline: none;
-}
-
-.pagination li.active {
-  background: blue;
-}
-
-.arrow-wrapper {
-  width: 18px;
-  top: 3px;
-  position: relative;
-}
-
-.pagination li.break-me {
-  background: none;
-  width: 5px;
-}
-
-.pagination svg {
-  stroke: white;
-  fill: white;
+  background: #85144b /*#111111 */;
+  color: #ffffff;
+  margin: 0;
+  padding-left: 8px;
 }

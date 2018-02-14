@@ -37,6 +37,7 @@ export function getColor(route) {
   return hex;
 }
 
+// shadeBlend is stolen from StackOverflow https://stackoverflow.com/questions/5560248/programmatically-lighten-or-darken-a-hex-color-or-rgb-and-blend-colors
 export function shadeBlend(p, c0, c1) {
   var n = p < 0 ? p * -1 : p,
     u = Math.round,

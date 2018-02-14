@@ -1,34 +1,35 @@
-.label > div {
-  /*z-index: 100000*/
-/*  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;*/
-}
-
 .label {
   position: relative;
-}
-.label__station {
-  border-bottom: 1px solid black;
-}
-
-
-.label:before {
-  content: "";
-  width: 100px;
-  height: 100px;
-  background: blue;
-  display: block;
-  position: absolute;
-  left: -100px;
+  width: 200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  grid-gap: 0;
 }
 
+.label__grid-item {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  text-align: center;
+}
 
-aside {
-  position: fixed;
-  top: 50px;
-  right: 50px;
-  color: white;
+.label__header {
+  border-bottom: 3px dotted #83184B;
+  padding-bottom: 2px;
+  display: inline;
+  margin: 0;
+}
+
+.label__value {
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.gm-style .gm-style-iw {
+  font-size: 10px;
 }

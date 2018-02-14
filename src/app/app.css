@@ -1,0 +1,20 @@
+.app {
+  background: #AAAAAA;
+}
+
+.app main {
+  height: calc(100vh - 33px);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+
+.list-wrapper {
+  grid-column: 1 / 5;
+  overflow: auto;
+}
+
+.map-container {
+  grid-column: 5 / 13;
+}
+
